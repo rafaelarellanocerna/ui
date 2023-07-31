@@ -1,0 +1,64 @@
+'use strict';
+
+var tslib = require('tslib');
+var jsxRuntime = require('@emotion/react/jsx-runtime');
+require('@emotion/react');
+require('../../@atoms/AtomText/style.js');
+var index = require('../../@atoms/AtomWrapper/index.js');
+var index$2 = require('../../@atoms/AtomButton/index.js');
+require('../../@atoms/AtomCarruosell/index.js');
+require('../../@atoms/AtomCartShop/index.js');
+require('next/image');
+require('../../@atoms/AtomImage/style.js');
+require('react');
+require('../../@atoms/AtomIcon/styled.js');
+require('../../@atoms/AtomContainer/style.js');
+require('../../@atoms/AtomLink/index.js');
+require('../../@atoms/AtomDropdownSidebar/admin/style.js');
+require('../../@atoms/AtomDropdownSidebar/default/style.js');
+require('../../@atoms/AtomDropdownSidebar/links/style.js');
+require('next/router');
+var index$1 = require('../../@atoms/AtomInput/index.js');
+require('../../@atoms/AtomSeparator/style.js');
+require('../../@utils/uploadImage.js');
+require('graphql-request');
+require('../../src/config/index.js');
+require('framer-motion');
+require('../../@atoms/AtomImageEditor/pintura/pintura.js');
+require('../../@atoms/AtomImageEditor/react-pintura/PinturaEditor.js');
+require('../../@atoms/AtomImageEditor/react-pintura/PinturaEditorModal.js');
+require('../../@atoms/AtomImageEditor/react-pintura/PinturaEditorOverlay.js');
+require('../../@atoms/AtomImageEditor/styled.js');
+require('lodash');
+require('../../@atoms/AtomInput/style.js');
+require('../../@atoms/AtomInput/inputWithPagination.js');
+require('../../@atoms/AtomLoader/style.js');
+require('../../@atoms/AtomMaps/style.js');
+require('../../@atoms/AtomNotification/styles.js');
+require('../../@atoms/AtomProgressBar/component/style/index.js');
+require('next/head');
+require('../../@atoms/AtomTable/style.js');
+require('react-redux');
+require('../../@atoms/AtomTableQuery/css/button.js');
+require('../../@atoms/AtomTableQuery/css/inputs.js');
+require('../../@atoms/AtomTableQuery/styled.js');
+require('../../@atoms/AtomTableQuery/apollo/query/Products.js');
+require('../../@atoms/AtomTextEditor/index.js');
+require('../../@atoms/AtomTextEditorHermer/index.js');
+require('../MoleculePlayer/style.js');
+require('../../@hooks/usePermissions/index.js');
+require('../../@hooks/useUploadFile/index.js');
+require('../../@components/Alert/Context.js');
+require('../../@components/Button/downloadFile.js');
+require('../../@components/Chat/style.js');
+require('uuid');
+require('../../@components/Header/style.js');
+require('../../@types/schemas.js');
+
+var MoleculeInsertComment = function (props) {
+    var componentsProps = props.componentsProps;
+    return (jsxRuntime.jsxs(index, tslib.__assign({ flexDirection: "column", justifyContent: "space-between" }, componentsProps === null || componentsProps === void 0 ? void 0 : componentsProps.wrapperProps, { children: [jsxRuntime.jsx(index$1, tslib.__assign({ type: "textbox", height: "150px", labelWidth: "100%", labelColor: "#888888", spanMargin: "0px 0px 10px 0px", label: "Haz una pregunta", padding: "15px 20px", color: "#272727" }, componentsProps === null || componentsProps === void 0 ? void 0 : componentsProps.inputProps)), jsxRuntime.jsx(index$2, tslib.__assign({ fontSize: "12px", backgroundColor: "#01abb9" }, componentsProps === null || componentsProps === void 0 ? void 0 : componentsProps.buttonProps, { children: "Enviar" }))] })));
+};
+
+module.exports = MoleculeInsertComment;
+//# sourceMappingURL=index.js.map

@@ -1,0 +1,65 @@
+'use strict';
+
+var tslib = require('tslib');
+var jsxRuntime = require('@emotion/react/jsx-runtime');
+var react = require('@emotion/react');
+require('../../@atoms/AtomText/style.js');
+var index = require('../../@atoms/AtomWrapper/index.js');
+require('../../@atoms/AtomButton/styled.js');
+require('../../@atoms/AtomLoader/style.js');
+require('../../@atoms/AtomCarruosell/index.js');
+require('../../@atoms/AtomCartShop/index.js');
+require('next/image');
+require('../../@atoms/AtomImage/style.js');
+var index$2 = require('../../@atoms/AtomIcon/index.js');
+require('../../@atoms/AtomContainer/style.js');
+require('react');
+require('../../@atoms/AtomLink/index.js');
+require('../../@atoms/AtomDropdownSidebar/admin/style.js');
+require('../../@atoms/AtomDropdownSidebar/default/style.js');
+require('../../@atoms/AtomDropdownSidebar/links/style.js');
+require('next/router');
+var index$1 = require('../../@atoms/AtomInput/index.js');
+require('../../@atoms/AtomSeparator/style.js');
+require('../../@utils/uploadImage.js');
+require('graphql-request');
+require('../../src/config/index.js');
+require('framer-motion');
+require('../../@atoms/AtomImageEditor/pintura/pintura.js');
+require('../../@atoms/AtomImageEditor/react-pintura/PinturaEditor.js');
+require('../../@atoms/AtomImageEditor/react-pintura/PinturaEditorModal.js');
+require('../../@atoms/AtomImageEditor/react-pintura/PinturaEditorOverlay.js');
+require('../../@atoms/AtomImageEditor/styled.js');
+require('lodash');
+require('../../@atoms/AtomInput/style.js');
+require('../../@atoms/AtomInput/inputWithPagination.js');
+require('../../@atoms/AtomMaps/style.js');
+require('../../@atoms/AtomNotification/styles.js');
+require('../../@atoms/AtomProgressBar/component/style/index.js');
+require('next/head');
+require('../../@atoms/AtomTable/style.js');
+require('react-redux');
+require('../../@atoms/AtomTableQuery/css/button.js');
+require('../../@atoms/AtomTableQuery/css/inputs.js');
+require('../../@atoms/AtomTableQuery/styled.js');
+require('../../@atoms/AtomTableQuery/apollo/query/Products.js');
+require('../../@atoms/AtomTextEditor/index.js');
+require('../../@atoms/AtomTextEditorHermer/index.js');
+require('../MoleculePlayer/style.js');
+require('../../@hooks/usePermissions/index.js');
+require('../../@hooks/useUploadFile/index.js');
+require('../../@components/Alert/Context.js');
+require('../../@components/Button/downloadFile.js');
+require('../../@components/Chat/style.js');
+require('uuid');
+require('../../@components/Header/style.js');
+require('../../@types/schemas.js');
+
+var MoleculeSearchBar = function (props) {
+    var componentsProps = props.componentsProps;
+    return (jsxRuntime.jsxs(index, tslib.__assign({ margin: "0px 0px 0px 25px", width: "max-content", height: "max-content", position: "relative", customCSS: react.css(templateObject_1 || (templateObject_1 = tslib.__makeTemplateObject(["\n        @media only screen and (max-width: 520px) {\n          display: none;\n        }\n      "], ["\n        @media only screen and (max-width: 520px) {\n          display: none;\n        }\n      "]))) }, componentsProps === null || componentsProps === void 0 ? void 0 : componentsProps.wrapperProps, { children: [jsxRuntime.jsx(index$1, tslib.__assign({ id: "search", height: "26px", errorMargin: "0px", labelWidth: "max-content", borderRadius: "50px", customCSS: react.css(templateObject_2 || (templateObject_2 = tslib.__makeTemplateObject(["\n          input {\n            width: 180px;\n          }\n          span {\n            display: none;\n          }\n        "], ["\n          input {\n            width: 180px;\n          }\n          span {\n            display: none;\n          }\n        "]))) }, componentsProps === null || componentsProps === void 0 ? void 0 : componentsProps.inputProps)), jsxRuntime.jsx(index$2, tslib.__assign({ height: "14px", width: "14px", icon: "https://storage.googleapis.com/cdn-bucket-ixulabs-commons/frontend-library/icons/search-solid%20(1).svg", color: "#a01d7f", customCSS: react.css(templateObject_3 || (templateObject_3 = tslib.__makeTemplateObject(["\n          position: absolute;\n          right: -30px;\n        "], ["\n          position: absolute;\n          right: -30px;\n        "]))) }, componentsProps === null || componentsProps === void 0 ? void 0 : componentsProps.iconProps))] })));
+};
+var templateObject_1, templateObject_2, templateObject_3;
+
+module.exports = MoleculeSearchBar;
+//# sourceMappingURL=index.js.map

@@ -1,0 +1,64 @@
+'use strict';
+
+var tslib = require('tslib');
+var jsxRuntime = require('@emotion/react/jsx-runtime');
+require('@emotion/react');
+require('../../@atoms/AtomText/style.js');
+var index = require('../../@atoms/AtomWrapper/index.js');
+var index$2 = require('../../@atoms/AtomButton/index.js');
+require('../../@atoms/AtomCarruosell/index.js');
+require('../../@atoms/AtomCartShop/index.js');
+require('next/image');
+require('../../@atoms/AtomImage/style.js');
+require('react');
+require('../../@atoms/AtomIcon/styled.js');
+require('../../@atoms/AtomContainer/style.js');
+require('../../@atoms/AtomLink/index.js');
+require('../../@atoms/AtomDropdownSidebar/admin/style.js');
+require('../../@atoms/AtomDropdownSidebar/default/style.js');
+require('../../@atoms/AtomDropdownSidebar/links/style.js');
+require('next/router');
+var index$1 = require('../../@atoms/AtomInput/index.js');
+require('../../@atoms/AtomSeparator/style.js');
+require('../../@utils/uploadImage.js');
+require('graphql-request');
+require('../../src/config/index.js');
+require('framer-motion');
+require('../../@atoms/AtomImageEditor/pintura/pintura.js');
+require('../../@atoms/AtomImageEditor/react-pintura/PinturaEditor.js');
+require('../../@atoms/AtomImageEditor/react-pintura/PinturaEditorModal.js');
+require('../../@atoms/AtomImageEditor/react-pintura/PinturaEditorOverlay.js');
+require('../../@atoms/AtomImageEditor/styled.js');
+require('lodash');
+require('../../@atoms/AtomInput/style.js');
+require('../../@atoms/AtomInput/inputWithPagination.js');
+require('../../@atoms/AtomLoader/style.js');
+require('../../@atoms/AtomMaps/style.js');
+require('../../@atoms/AtomNotification/styles.js');
+require('../../@atoms/AtomProgressBar/component/style/index.js');
+require('next/head');
+require('../../@atoms/AtomTable/style.js');
+require('react-redux');
+require('../../@atoms/AtomTableQuery/css/button.js');
+require('../../@atoms/AtomTableQuery/css/inputs.js');
+require('../../@atoms/AtomTableQuery/styled.js');
+require('../../@atoms/AtomTableQuery/apollo/query/Products.js');
+require('../../@atoms/AtomTextEditor/index.js');
+require('../../@atoms/AtomTextEditorHermer/index.js');
+require('../MoleculePlayer/style.js');
+require('../../@hooks/usePermissions/index.js');
+require('../../@hooks/useUploadFile/index.js');
+require('../../@components/Alert/Context.js');
+require('../../@components/Button/downloadFile.js');
+require('../../@components/Chat/style.js');
+require('uuid');
+require('../../@components/Header/style.js');
+require('../../@types/schemas.js');
+
+var MoleculeNewsLetter = function (props) {
+    var componentsProps = props.componentsProps;
+    return (jsxRuntime.jsxs(index, tslib.__assign({}, componentsProps === null || componentsProps === void 0 ? void 0 : componentsProps.wrapperProps, { children: [jsxRuntime.jsx(index$1, tslib.__assign({ id: "newsletter", labelWidth: "100%", height: "30px", border: "1px solid #00838f", placeholder: "Tu email" }, componentsProps === null || componentsProps === void 0 ? void 0 : componentsProps.inputProps)), jsxRuntime.jsx(index$2, tslib.__assign({ backgroundColor: "#00838f", color: "white", fontSize: "12px", padding: "8px 15px", fontWeight: "700" }, componentsProps === null || componentsProps === void 0 ? void 0 : componentsProps.butonProps, { children: "Subscribete" }))] })));
+};
+
+module.exports = MoleculeNewsLetter;
+//# sourceMappingURL=index.js.map

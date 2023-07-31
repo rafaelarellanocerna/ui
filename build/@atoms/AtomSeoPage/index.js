@@ -1,0 +1,18 @@
+'use strict';
+
+var jsxRuntime = require('@emotion/react/jsx-runtime');
+var Head = require('next/head');
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var Head__default = /*#__PURE__*/_interopDefaultLegacy(Head);
+
+var SeoPage = function (props) {
+    var _a, _b, _c, _d;
+    return (jsxRuntime.jsxs(Head__default["default"], { children: [jsxRuntime.jsxs("title", { children: [props.title, " | ", props.page] }), props.icon && (jsxRuntime.jsx("link", { rel: "icon", type: "image/png", href: (_a = props.icon) !== null && _a !== void 0 ? _a : "/favicon.png" })), jsxRuntime.jsx("meta", { httpEquiv: "Content-Type", content: "text/html;charset=UTF-8" }), jsxRuntime.jsx("meta", { httpEquiv: "X-UA-Compatible", content: "IE=7" }), jsxRuntime.jsx("meta", { httpEquiv: "X-UA-Compatible", content: "ie=edge" }), jsxRuntime.jsx("meta", { name: "canonical", content: props.website }), jsxRuntime.jsx("meta", { name: "keywords", content: props.keywords ? props.keywords.join(", ") : "nextjs, typescript" }), jsxRuntime.jsx("meta", { name: "viewport", content: "width=device-width, initial-scale=1" }), jsxRuntime.jsx("link", { rel: "manifest", href: "/manifest.json" }), jsxRuntime.jsx("meta", { name: "description", content: props.description }), jsxRuntime.jsx("meta", { name: "author", content: "Ixulabs" }), jsxRuntime.jsx("meta", { name: "copyright", content: "Ixulabs" }), jsxRuntime.jsx("meta", { name: "title", content: props.title }), jsxRuntime.jsx("meta", { name: "description", content: props.description }), jsxRuntime.jsx("meta", { name: "googlebot", content: "index,follow" }), jsxRuntime.jsx("meta", { property: "og:locale", content: (_b = props.locale) !== null && _b !== void 0 ? _b : 'es_ES' }), jsxRuntime.jsx("meta", { property: "og:type", content: "article" }), jsxRuntime.jsx("meta", { property: "og:title", content: props.title }), jsxRuntime.jsx("meta", { property: "og:description", content: props.description }), jsxRuntime.jsx("meta", { property: "og:url", content: props.website }), jsxRuntime.jsx("meta", { property: "og:site_name", content: "".concat(props.title, " | ").concat(props.page) }), jsxRuntime.jsx("meta", { property: "og:image", content: props.image || "/preview.png" }), jsxRuntime.jsx("meta", { property: "og:image:secure_url", content: props.image || "/preview.png" }), jsxRuntime.jsx("meta", { property: "og:image:width", content: "1200" }), jsxRuntime.jsx("meta", { property: "og:image:height", content: "630" }), jsxRuntime.jsx("meta", { property: "og:image:alt", content: props.title }), jsxRuntime.jsx("meta", { name: "twitter:card", content: "summary_large_image" }), jsxRuntime.jsx("meta", { name: "twitter:description", content: props.description }), jsxRuntime.jsx("meta", { name: "twitter:title", content: props.title }), jsxRuntime.jsx("meta", { name: "twitter:image", content: props.image || "/preview.png" }), jsxRuntime.jsx("meta", { property: "og:image", itemProp: "image", content: props.image || "/preview.png" }), jsxRuntime.jsx("meta", { property: "og:image:secure_url", content: props.image || "/preview.png" }), jsxRuntime.jsx("meta", { property: "og:image:type", content: "image/png" }), jsxRuntime.jsx("meta", { property: "og:image:width", content: "300" }), jsxRuntime.jsx("meta", { property: "og:image:height", content: "300" }), jsxRuntime.jsx("script", { type: (_c = props.jsonType) !== null && _c !== void 0 ? _c : 'application/ld+json', dangerouslySetInnerHTML: {
+                    __html: (_d = props === null || props === void 0 ? void 0 : props.json) !== null && _d !== void 0 ? _d : '',
+                } })] }));
+};
+
+module.exports = SeoPage;
+//# sourceMappingURL=index.js.map
